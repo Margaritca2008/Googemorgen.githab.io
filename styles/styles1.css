@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Jost&display=swap);
+/* шрииииифт */
+body {
+    font-family: Jost, serif;
+    /* шрииииифт */
+    background: linear-gradient(90deg, #8f4819 0%, #df600c 49%);
+}
+.nav-link {
+    color: gold;
+    /* не активное золотым */
+}
+
+.navbar-nav .nav-link.active {
+    color: paleturquoise;
+    /* активное помечаем лазурным */
+}
+.navbar-brand img {
+    width: 20px;
+}
+.sidebar {
+    background: linear-gradient(270deg, #8f4819 0%, #cb7840 49%);
+    color:#582d11;
+}
+
+.card {
+    color: #fff205;
+    background: linear-gradient(270deg, #b57245 0%, #8c4a1e 49%);
+}
+
+.btn-primary{
+    background-color:rgb(165, 112, 27);
+    border-color: rgb(183, 124, 30);
+}
+
+.btn-primary:hover {
+    background-color:rgb(223, 134, 18);
+    border-color: rgb(223, 134, 18);
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff205;
+}
+
+.slide-text,
+.footer-text {
+    color: #fff205;
+    margin: auto auto;
+}
+
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+footer,btn-outline-warning {
+    background:#bd530d;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canwe p {
+    color: #fff205;
+}
+
+.callanim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}

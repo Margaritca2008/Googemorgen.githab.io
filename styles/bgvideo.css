@@ -1,0 +1,35 @@
+.bgvideo{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.bgvideo video{
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    /* то что не вместится- отрежется */
+    z-index: 1;
+    /* слой 1 */
+}
+/* .effect {
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    то что не вместится- отрежется 
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.427);
+    слой 1 
+} */
+ /* для того чтобы затемнить видео */
+.video-text {
+    color: yellow;
+    z-index: 2;
+    /* слой 2 */
+}
